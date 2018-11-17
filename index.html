@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/perspectiveRules.css">
+
+  <!-- script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jquery.logosDistort.js"></script>
+  <script src="js/jquery.particleground.min.js"></script>
+
+  <title>Parallax</title>
+</head>
+<body>
+  <div id="parallax">
+    <img src="img/hero.jpg" alt="background">
+    <img src="img/timeline.png" alt="el-1">
+    <img src="img/bookeh.png" alt="el-2">
+</div>
+<script>
+
+    $("#parallax").logosDistort({
+         effectWeight: 3
+    });
+
+</script>
+</body>
+</html>
